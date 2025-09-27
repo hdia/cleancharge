@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+geopandas
+shapely
+scikit-learn
+xgboost
+matplotlib
+python-dotenv
