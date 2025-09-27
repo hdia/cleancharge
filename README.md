@@ -1,8 +1,10 @@
 \# CleanCharge
+
 CleanCharge is a lightweight toolkit for analysing electric vehicle (EV) charging costs and emissions using open electricity data.
 It provides scripts to fetch data, analyse system-wide and per-origin charging behaviour, and generate reproducible plots.
 
 \## Repository structure
+
 cleancharge/
 ├── src/
 │ ├── analyse/ # Analysis scripts
