@@ -3,8 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**CleanCharge** is a lightweight toolkit for analysing electric vehicle (EV) charging costs and emissions using open electricity data.  
-It provides scripts to fetch data, analyse system-wide and per-origin charging behaviour, and generate reproducible plots.
+**CleanCharge** is a lightweight toolkit for analysing electric vehicle (EV) charging costs and emissions using open electricity data. It provides scripts to fetch data, analyse system-wide and per-origin charging behaviour, and generate reproducible plots.
 
 ---
 
@@ -41,7 +40,8 @@ pip install -r requirements.txt
 
 ### 3. Run with existing data
 ```powershell
-.un_from_existing_data.ps1
+.
+un_from_existing_data.ps1
 ```
 
 ### 4. Run specific scripts
