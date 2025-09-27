@@ -10,7 +10,7 @@
 
 
 
-CleanCharge is a lightweight toolkit for analysing electric vehicle (EV) charging costs and emissions using open electricity data.  
+CleanCharge is a lightweight toolkit for analysing electric vehicle (EV) charging costs and emissions using open electricity data.
 
 It provides scripts to fetch data, analyse system-wide and per-origin charging behaviour, and generate reproducible plots.
 
@@ -38,45 +38,43 @@ cleancharge/
 
 
 
-
-
 \## Quick start
 
 
 
-1\. \*\*Clone the repo\*\*
+\*\*Clone the repo\*\*
 
-   ```bash
+```bash
 
-   git clone https://github.com/hdia/cleancharge.git
+git clone https://github.com/hdia/cleancharge.git
 
-   cd cleancharge
-
-
-
-2\. Set up Python environment
-
-   python -m venv .venv
-
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
-   .\\.venv\\Scripts\\Activate.ps1
-
-   pip install -r requirements.txt
+cd cleancharge
 
 
 
-3\. Run with existing data
+\*\*Set up Python environment\*\*
 
-   .\\run\_from\_existing\_data.ps1
+python -m venv .venv
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+.\\.venv\\Scripts\\Activate.ps1
+
+pip install -r requirements.txt
 
 
 
-4\. Run specific scripts
+\*\*Run with existing data\*\*
 
-   python src/analyse/ev\_charging\_analyser\_system.py --help
+.\\run\_from\_existing\_data.ps1
 
-   python src/plots/plot\_map\_per\_origin.py --help
+
+
+\*\*Run specific scripts\*\*
+
+python src/analyse/ev\_charging\_analyser\_system.py --help
+
+python src/plots/plot\_map\_per\_origin.py --help
 
 
 
@@ -121,5 +119,15 @@ Scripts write to:
 
 
 
-MIT License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+
+
+\## Acknowledgements
+
+
+
+This work was developed as part of research at Swinburne University of Technology on analysing electric vehicle (EV) charging costs and emissions using open electricity data in Melbourne, Australia.
+
+
 
