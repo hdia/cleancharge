@@ -1,9 +1,4 @@
 \# CleanCharge
-
-\[!\[Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-\[!\[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-\[!\[Status](https://img.shields.io/badge/status-research--prototype-lightgrey.svg)]()
-
 CleanCharge is a lightweight toolkit for analysing electric vehicle (EV) charging costs and emissions using open electricity data.
 It provides scripts to fetch data, analyse system-wide and per-origin charging behaviour, and generate reproducible plots.
 
