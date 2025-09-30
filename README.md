@@ -40,8 +40,7 @@ pip install -r requirements.txt
 
 ### 3. Run with existing data
 ```powershell
-.
-un_from_existing_data.ps1
+.un_from_existing_data.ps1
 ```
 
 ### 4. Run specific scripts
@@ -52,10 +51,24 @@ python src/plots/plot_map_per_origin.py --help
 
 ---
 
-## Input data
+## Data inputs
 
-- Not included in repo: `.venv/`, `data/`, and `results/` are excluded to keep the repository lightweight.  
-- Supply your own `data/processed/` files (e.g. `openelectricity_90d_hybrid_local_with_intensity.csv`, `landmarks.csv`).
+The CleanCharge workflow requires two authoritative input datasets:
+
+- `openelectricity_90d_hybrid_local_with_intensity.csv`
+- `openelectricity_emissions_30d_local.csv`
+
+These have been pre-processed from the OpenElectricity API and represent the authoritative 90-day and 30-day datasets used in the CleanCharge analysis.
+
+👉 Download them from Zenodo:  
+[https://doi.org/10.5281/zenodo.17232110](https://doi.org/10.5281/zenodo.17232110)
+
+Place both files into:
+```
+data/processed/
+```
+
+The helper script `run_from_existing_data.ps1` assumes this location. Once the files are in place, you can reproduce the analyses and regenerate figures by following the steps above.
 
 ---
 
@@ -83,3 +96,17 @@ Open issues or PRs for bugs, docs, or new modules.
 ## License
 
 [MIT License](LICENSE)
+
+---
+
+## Cite this work
+
+If you use CleanCharge in your research, please cite both the dataset and the code:
+
+- **Dataset:**  
+  H. Dia et al. (2025). *CleanCharge: Authoritative processed electricity datasets (30-day and 90-day).* Zenodo.  
+  [https://doi.org/10.5281/zenodo.17232110](https://doi.org/10.5281/zenodo.17232110)
+
+- **Code:**  
+  H. Dia et al. (2025). *CleanCharge: Analysis and forecasting scripts (v1.0).* Zenodo.  
+  [https://doi.org/10.5281/zenodo.17232338](https://doi.org/10.5281/zenodo.17232338)
