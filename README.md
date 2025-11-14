@@ -40,7 +40,8 @@ pip install -r requirements.txt
 
 ### 3. Run with existing data
 ```powershell
-.un_from_existing_data.ps1
+.
+un_from_existing_data.ps1
 ```
 
 ### 4. Run specific scripts
@@ -104,9 +105,9 @@ Open issues or PRs for bugs, docs, or new modules.
 If you use CleanCharge in your research, please cite both the dataset and the code:
 
 - **Dataset:**  
-  H. Dia et al. (2025). *CleanCharge: Authoritative processed electricity datasets (30-day and 90-day).* Zenodo.  
+  Dia, H. (2025). *CleanCharge: Authoritative processed electricity datasets (30-day and 90-day).* Zenodo.  
   [https://doi.org/10.5281/zenodo.17232110](https://doi.org/10.5281/zenodo.17232110)
 
 - **Code:**  
-  H. Dia et al. (2025). *CleanCharge: Analysis and forecasting scripts (v1.0).* Zenodo.  
+  Dia, H. (2025). *CleanCharge: Analysis and forecasting scripts (v1.0).* Zenodo.  
   [https://doi.org/10.5281/zenodo.17232338](https://doi.org/10.5281/zenodo.17232338)
