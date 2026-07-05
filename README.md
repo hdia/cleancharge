@@ -12,7 +12,7 @@ A reproducible research software system for analysing when, where, and how elect
 
 **CleanCharge** is an open source research toolkit for emissions aware electric vehicle charging using open electricity and charging infrastructure data.
 
-It accompanies the peer reviewed paper:
+It accompanies the journal paper:
 
 > **Dia, H. (2026). _CleanCharge: Emissions-aware electric vehicle charging and infrastructure equity with open data in Melbourne._ International Journal of Sustainable Transportation, 1–27.**  
 > https://doi.org/10.1080/15568318.2026.2693676
@@ -66,7 +66,7 @@ The scripts in `src/` reproduce the analyses presented in the published paper, i
 
 ## 🚀 Latest release
 
-**CleanCharge Explorer v1.0**
+**CleanCharge Explorer v2.0**
 
 Released: July 2026
 
