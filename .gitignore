@@ -8,8 +8,16 @@ venv/
 env/
 
 # Data & outputs
-data/
+
+# Ignore generated outputs
 results/
+
+# Ignore processed analysis data
+data/processed/
+
+# Keep dashboard datasets under version control
+!data/dashboard/
+!data/dashboard/**
 
 # IDE
 .vscode/
