@@ -1,4 +1,15 @@
-# quick_cleancharge_commit.py
+# sync_github.py
+
+"""
+Synchronise the local CleanCharge repository with GitHub.
+
+Workflow:
+1. git add .
+2. git commit
+3. git push origin main
+
+For normal day-to-day development only.
+"""
 
 import subprocess
 from datetime import datetime
