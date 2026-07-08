@@ -108,11 +108,15 @@ def load_csv(filename: str) -> pd.DataFrame:
 
 def parse_datetime_columns(df: pd.DataFrame) -> pd.DataFrame:
     out = df.copy()
-    for c in out.columns:
-        if "time" in c.lower() or "date" in c.lower() or "start" in c.lower() or "end" in c.lower():
-            out[c] = pd.to_datetime(out[c], errors="ignore")
-    return out
 
+    for c in out.columns:
+        name = c.lower()
+        if "time" in name or "date" in name or "start" in name or "end" in name:
+            converted = pd.to_datetime(out[c], errors="coerce")
+            if converted.notna().sum() > 0:
+                out[c] = converted
+
+    return out
 
 def fmt_kg(x):
     if pd.isna(x):
