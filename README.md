@@ -1,8 +1,11 @@
 # CleanCharge
 
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DOI](https://img.shields.io/badge/DOI-10.1080%2F15568318.2026.2693676-blue)](https://doi.org/10.1080/15568318.2026.2693676)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17232110-orange)](https://doi.org/10.5281/zenodo.17232110)
-[![Version](https://img.shields.io/badge/release-v2.0-green)]()
+[![Version](https://img.shields.io/badge/release-v2.0-green)](https://github.com/hdia/cleancharge/releases/tag/v2.0)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-brightgreen)](https://cleancharge.streamlit.app/)
 
 A reproducible research software system for analysing when, where, and how electric vehicles can be charged with lower electricity carbon intensity in Melbourne.
 
@@ -29,6 +32,14 @@ CleanCharge demonstrates how publicly available electricity, pricing and chargin
 The repository includes both the research workflow used in the published study and the interactive **CleanCharge Explorer** Streamlit dashboard.
 
 👉 **Research prototype.** CleanCharge is intended for research, education and reproducible analysis. It is **not** a live operational EV charging recommendation service.
+
+---
+
+## 🚀 Live dashboard
+
+Try CleanCharge Explorer online:
+
+**https://cleancharge.streamlit.app/**
 
 ---
 
